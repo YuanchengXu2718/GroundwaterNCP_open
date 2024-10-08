@@ -9,7 +9,7 @@ Annual water supply and use in the Hai River basin
 
 ## input_waterBalanceModel.xlsx
 Input data for the water balance model  
-Abbreviation used in this file:  
+### Abbreviation used in this file:  
   Average groundwater depth in unconfined aquifers in the NCP (avgDepth_NCP)  
   Precipitation (Pr)  
   Irrigation water use (IWU)  
@@ -19,7 +19,7 @@ Abbreviation used in this file:
 ## CODE_waterBalanceModel.ipynb
 Code of the water balance model  
 "input_waterBalanceModel.xlsx" is used in the code  
-Testing environment:  
+### Testing environment:  
   python 3.11.7  
   numpy 1.26.4  
   pandas 2.1.4  
