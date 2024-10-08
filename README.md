@@ -8,7 +8,7 @@ In-situ groundwater depth data in the Hai River basin during 2005-2023
 Annual water supply and use in the Hai River basin
 
 ## input_waterBalanceModel.xlsx
-Input data for the water balance model
+Input data for the water balance model  
 Abbreviation used in this file:
   Average groundwater depth in unconfined aquifers in the NCP (avgDepth_NCP)
   Precipitation (Pr)
