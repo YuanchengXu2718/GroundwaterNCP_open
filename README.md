@@ -14,7 +14,7 @@ Input data for the water balance model
   Precipitation (Pr)  
   Irrigation water use (IWU)  
   Diverted water from the Yangtze River by the South-to-North Water Diversion Project (Div)  
-  Precipitation **_k_**-month before the current month (Pr_lag_**k**_)
+  Precipitation **_k_**-month before the current month (Pr_lag**_k_**)
 
 ## CODE_waterBalanceModel.ipynb
 Code of the water balance model  
