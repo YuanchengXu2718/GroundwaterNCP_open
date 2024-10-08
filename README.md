@@ -9,17 +9,17 @@ Annual water supply and use in the Hai River basin
 
 ## input_waterBalanceModel.xlsx
 Input data for the water balance model  
-Abbreviation used in this file:
-  Average groundwater depth in unconfined aquifers in the NCP (avgDepth_NCP)
-  Precipitation (Pr)
-  Irrigation water use (IWU)
-  Diverted water from the Yangtze River by the South-to-North Water Diversion Project (Div)
+Abbreviation used in this file:  
+  Average groundwater depth in unconfined aquifers in the NCP (avgDepth_NCP)  
+  Precipitation (Pr)  
+  Irrigation water use (IWU)  
+  Diverted water from the Yangtze River by the South-to-North Water Diversion Project (Div)  
   Precipitation **_k_**-month before the current month (Pr_lag**_k_**)
 
 ## CODE_waterBalanceModel.ipynb
-Code of the water balance model
-"input_waterBalanceModel.xlsx" is used in the code
-Testing environment:
+Code of the water balance model  
+"input_waterBalanceModel.xlsx" is used in the code  
+Testing environment:  
   python 3.11.7  
   numpy 1.26.4  
   pandas 2.1.4  
