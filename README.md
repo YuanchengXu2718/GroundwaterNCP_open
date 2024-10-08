@@ -9,7 +9,7 @@ Annual water supply and use in the Hai River basin
 
 ## input_waterBalanceModel.xlsx
 Input data for the water balance model  
-### Abbreviation used in this file:  
+### Abbreviations used in this file:  
   Average groundwater depth in unconfined aquifers in the NCP (avgDepth_NCP)  
   Precipitation (Pr)  
   Irrigation water use (IWU)  
