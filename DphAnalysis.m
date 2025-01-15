@@ -44,7 +44,7 @@ data = raw(:, 5:end);
 % type of well selected
 % when doing interpolation, we only include wells in the first layer of
 % unconfined (type = 11) and confined (type = 21) aquifers
-typeMask = type == 21;
+typeMask = type == 11;
 
 % reproject to UTM zone 50N (EPSG: 32650)
 projUTM = projcrs(32650);
