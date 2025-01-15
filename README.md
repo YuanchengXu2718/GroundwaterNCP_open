@@ -1,29 +1,15 @@
 # GroundwaterNCP_open
-Here you can find the data and code used in our paper about groundwater recovery in the North China Plain (NCP)
+Here you can find the data and code used in our paper about rapid groundwater recovery in the North China Plain (NCP)
 
 ## GroundwaterDepth.xlsx
-In-situ groundwater depth data in the Hai River basin during 2005-2023
+In-situ groundwater depth data in the Hai River basin from 2005 to 2024 after quality control
 
-## WaterSupplyUse_HRB_2005_2023.xlsx
-Annual water supply and use in the Hai River basin
-
-## input_waterBalanceModel.xlsx
-Input data for the water balance model  
-### Abbreviations used in this file:  
-  Average groundwater depth in unconfined aquifers in the NCP (avgDepth_NCP)  
-  Precipitation (Pr)  
-  Irrigation water use (IWU)  
-  Diverted water from the Yangtze River by the South-to-North Water Diversion Project (Div)  
-  Precipitation **k**-month before the current month (Pr_lag**k**)
-
-## CODE_waterBalanceModel.ipynb
-Code of the water balance model  
-"input_waterBalanceModel.xlsx" is used in the code  
-### Testing environment:  
-  python 3.11.7  
-  numpy 1.26.4  
-  pandas 2.1.4  
-  scikit-learn 1.2.2  
-  matplotlib 3.8.0
-  
+### Type of monitoring well
+if 10 < type <= 19, the well monitors unconfined aquifers
+type 11 represents the first unconfined aquifers
+type 12 represents the second unconfined aquifers, etc.
+if 20 < type <= 29, the well monitors confined aquifers
+type 21 represents the first confined aquifers
+type 22 represents the second confined aquifers, etc.
+ 
 
