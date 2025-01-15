@@ -5,20 +5,22 @@ Here you can find the data and code used in our paper about rapid groundwater re
 In-situ groundwater depth data in the Hai River basin from 2005 to 2024 after quality control
 
 ### Type of monitoring well
-if 10 < type <= 19, the well monitors unconfined aquifers
-type 11 represents the first unconfined aquifers
-type 12 represents the second unconfined aquifers, etc.
-if 20 < type <= 29, the well monitors confined aquifers
-type 21 represents the first confined aquifers
-type 22 represents the second confined aquifers, etc.
+If 10 < type <= 19, the well monitors unconfined aquifers.  
+Type 11 represents the first unconfined aquifers.  
+Type 12 represents the second unconfined aquifers, etc.  
+  
+If 20 < type <= 29, the well monitors confined aquifers.  
+Type 21 represents the first confined aquifers.  
+Type 22 represents the second confined aquifers, etc.  
 
 ## DphAnalysis.m
-Matlab code for spatial interpolation and uncertainty analysis of regionally average groundwater depth
-GoundwaterDepth.xlsx is used in this code
-Tips: Monte Carlo simulations for uncertainty analysis are time-consuming. For example, running 1,000 simulation for average groundwater depth in the NCP takes ~20 min with Intel i9-14900K and parallel computing. For older laptops with Intel i7-7700HQ, the same process takes 
+Matlab code for spatial interpolation and uncertainty analysis of regionally average groundwater depth  
+GoundwaterDepth.xlsx is used in this code  
+  
+Tips: Monte Carlo simulations for uncertainty analysis are time-consuming. For example, running 1,000 simulations for average groundwater depth in the NCP takes ~20 min with Intel i9-14900K and parallel computing. For older laptops with Intel i7-7700HQ, the same process can last over 3 hours.  
 
 ## Folder: mask
-Find the mask of regions:
+Find the mask for different regions:
 ### North China Plain
 ncp.tif
 ### City: Beijing, Baoding, Hengshui, and Tangshan
