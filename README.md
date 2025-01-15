@@ -11,5 +11,21 @@ type 12 represents the second unconfined aquifers, etc.
 if 20 < type <= 29, the well monitors confined aquifers
 type 21 represents the first confined aquifers
 type 22 represents the second confined aquifers, etc.
+
+## Folder: mask
+Find the mask of regions:
+
+### North China Plain
+ncp.tif
+### City: Beijing, Baoding, Hengshui, and Tangshan
+city_beijing.tif, city_baoding.tif, city_hengshui.tif, and city_tangshan.tif
+### Subbasin: I, II, III, and IV
+subbasin_1.tif, subbasin_2.tif, subbasin_3.tif, and subbasin_4.tif
+
+## Folder: dphMap_unconfined
+Monthly map of groundwater depth in unconfined aquifers after spatial interpolation
+
+## Folder: dphMap_confined
+Monthly map of groundwater depth in confined aquifers after spatial interpolation
  
 
