@@ -29,11 +29,8 @@ city_beijing.tif, city_baoding.tif, city_hengshui.tif, and city_tangshan.tif
 subbasin_1.tif, subbasin_2.tif, subbasin_3.tif, and subbasin_4.tif
 
 
-## Folder: dphMap_unconfined
-Monthly map of groundwater depth in unconfined aquifers after spatial interpolation
+## dphMap_unconfined.rar & dphMap_confined.rar
+Monthly map of groundwater depth in unconfined and confined aquifers after spatial interpolation  
 
-
-## Folder: dphMap_confined
-Monthly map of groundwater depth in confined aquifers after spatial interpolation
- 
-
+## WaterSupplyUse_HRB_2005_2023.xlsx
+Annual water supply and usage in the Hai River basin (HRB) 
