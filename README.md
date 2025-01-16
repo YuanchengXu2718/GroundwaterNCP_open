@@ -16,7 +16,10 @@ Type 22 represents the second confined aquifers, etc.
 ## DphAnalysis.m
 Matlab code for spatial interpolation and uncertainty analysis of regionally average groundwater depth  
 GoundwaterDepth.xlsx is used in this code  
+  
 Check the "CoreNum = 4" in LINE 20 and ensure the number of cores used is smaller than you have!  
+  
+Some users have reported encountering unexpected errors when using "parfor" in MATLAB, which may be related to MATLAB's registration. If you experience the same issue and are unable to resolve it, please consider replacing "parfor" with "for".  
   
 Tips: Monte Carlo simulations for uncertainty analysis are time-consuming. For example, running 1,000 simulations for average groundwater depth in the NCP takes ~20 min with Intel i9-14900K and parallel computing. For older laptops with Intel i7-7700HQ, the same process can last over 3 hours.  
   
