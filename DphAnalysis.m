@@ -17,7 +17,7 @@ timeseries = datetime(2005, 1, 1):calmonths(1):datetime(2024, 12, 1);
 timeseries = timeseries';
 
 % parallel computing setting    
-CoreNum = 24; % set the number of cores used in parallel computing
+CoreNum = 4; % set the number of cores used in parallel computing
 if isempty(gcp('nocreate'))
     parpool(CoreNum);
 end
