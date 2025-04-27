@@ -1,6 +1,7 @@
 # GroundwaterNCP_open
 Here you can find the data, code, and source used in our paper about rapid groundwater recovery in the North China Plain (NCP)  
-The codes are tested using MATLAB R2023b
+Running the code does not depend on a specific development environment or hardware. A simple click and run is sufficient.  
+The code has been tested using MATLAB R2023b
   
 ## GroundwaterDepth.xlsx
 In-situ groundwater depth data in the NCP from 2005 to 2024
