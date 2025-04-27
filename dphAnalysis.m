@@ -17,13 +17,13 @@ timeseries = datetime(2005, 1, 1):calmonths(1):datetime(2024, 12, 1);
 timeseries = timeseries';
 
 % parallel computing setting    
-CoreNum = 24; % set the number of cores used in parallel computing
+CoreNum = 4; % set the number of cores used in parallel computing
 if isempty(gcp('nocreate'))
     parpool(CoreNum);
 end
 
 f = waitbar(0, 'Loading...');
-root = "E:\2024groundwater_insitu\In_situ_writing_revise1\openData";
+root = "./";
 % read the Excel file of groundwater depth at wells
 path_input = root + "\GroundwaterDepth.xlsx";
 raw = readmatrix(path_input);
@@ -55,7 +55,7 @@ windowOL = 24; % moving window length for identifying outliers
 % type of well selected
 % when doing interpolation, we only include wells in the first layer of
 % unconfined (type = 11) and confined (type = 21) aquifers
-typeMask = type == 21;
+typeMask = type == 11;
 
 % load the mask for interpolation
 % choose your region of interest here
@@ -229,6 +229,5 @@ hold off;
 % regionally average depth, lower bound of confidence interval, and
 % upper bound of confidence interval
 AttentionForResult = [cumDph - mean(cumDph), lowerLoop - mean(cumDph), upperLoop - mean(cumDph)];
-AttentionForResult_cum = [cumDph, lowerLoop, upperLoop];
 
 toc; % record the time used for the script

@@ -16,13 +16,13 @@ timeseries = datetime(2005, 1, 1):calmonths(1):datetime(2024, 12, 1);
 timeseries = timeseries';
 
 % parallel computing setting    
-CoreNum = 24; % set the number of cores used in parallel computing
+CoreNum = 4; % set the number of cores used in parallel computing
 if isempty(gcp('nocreate'))
     parpool(CoreNum);
 end
 
 f = waitbar(0, 'Loading...');
-root = "E:\2024groundwater_insitu\In_situ_writing_revise1\openData";
+root = "./";
 % read the Excel file of groundwater depth at wells
 path_input = root + "\GroundwaterDepth.xlsx";
 raw = readmatrix(path_input);
