@@ -1,16 +1,17 @@
 # GroundwaterNCP_open
-Here you can find the data, code, and source used in our paper about rapid groundwater recovery in the North China Plain (NCP)
+Here you can find the data, code, and source used in our paper about rapid groundwater recovery in the North China Plain (NCP)  
+The codes are tested using MATLAB R2023b
   
 ## GroundwaterDepth.xlsx
 In-situ groundwater depth data in the NCP from 2005 to 2024
 ### Type of monitoring well
 If 10 < type <= 19, the well monitors unconfined aquifers.  
-Type 11 represents the first unconfined aquifers.  
-Type 12 represents the second unconfined aquifers, etc.  
+Type 11 represents the first unconfined aquifer.  
+Type 12 represents the second unconfined aquifer, etc.  
   
 If 20 < type <= 29, the well monitors confined aquifers.  
-Type 21 represents the first confined aquifers.  
-Type 22 represents the second confined aquifers, etc.
+Type 21 represents the first confined aquifer.  
+Type 22 represents the second confined aquifer, etc.
 
 
 ## GW_Dph_NN.m
