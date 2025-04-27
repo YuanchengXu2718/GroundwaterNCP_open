@@ -44,4 +44,4 @@ Source data for the figures
   
   
 ## WaterSupplyUse_HRB_2005_2023.xlsx
-Annual water supply and usage in the Hai River basin (HRB), including precipitation and renewable water resources
+Annual water supply and usage in the Hai River basin (HRB), including renewable water resources
