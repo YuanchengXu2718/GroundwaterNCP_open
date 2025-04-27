@@ -13,19 +13,23 @@ Type 21 represents the first confined aquifers.
 Type 22 represents the second confined aquifers, etc.
 
 
-## GW_dph_NN.m
+## GW_Dph_NN.m
 Spatial interpolation based on Thiessen polygons (Nearest neighbour)  
   
-## DphAnalysis.m
-Matlab code for spatial interpolation and uncertainty analysis
-GoundwaterDepth.xlsx and GW_Dph_NN.m is used in this code  
+## dphAnalysis.m
+Code for spatial interpolation and uncertainty analysis  
+GoundwaterDepth.xlsx and GW_Dph_NN.m are used in this code 
   
 Check the "CoreNum = 4" in LINE 19 and ensure the number of cores used is smaller than you have!  
   
 Some users have reported encountering unexpected errors when using "parfor" in MATLAB, which may be related to MATLAB's registration. If you experience the same issue and are unable to resolve it, please consider replacing "parfor" with "for".  
   
 Tips: Monte Carlo simulations for uncertainty analysis are time-consuming. For example, running 1,000 simulations for average groundwater depth in the NCP takes ~20 min with Intel i9-14900K and parallel computing. For older laptops with Intel i7-7700HQ, the same process can last over 3 hours.
-  
+
+
+## dphAnalysis_preprocessingPara.m
+Code for examining the uncertainty introduced by preprocessing  
+GoundwaterDepth.xlsx and GW_Dph_NN.m are used in this code   
   
 ## Folder: mask
 Find the mask for different regions:
