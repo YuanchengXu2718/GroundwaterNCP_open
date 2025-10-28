@@ -1,7 +1,15 @@
 # GroundwaterNCP_open
-Here you can find the data, code, and source used in our paper about rapid groundwater recovery in the North China Plain (NCP)  
+Here you can find the data, code, and source used in our paper:  
+
+Unprecedented large-scale aquifer recovery through human intervention. _Nat Commun_ 16, 7296 (2025). https://doi.org/10.1038/s41467-025-62719-5  
+
 Running the code does not depend on a specific development environment or hardware. A simple click and run is sufficient.  
 The code has been tested using MATLAB R2023b
+
+Author: Yuancheng Xu  
+Affiliation: Prof. Di Long's group at Tsinghua University, Beijing, PRC  
+Email: xuyc24@mails.tsinghua.edu.cn  
+Last updated: 3/7/2025  
   
 ## GroundwaterDepth.xlsx
 In-situ groundwater depth data in the NCP from 2005 to 2024
