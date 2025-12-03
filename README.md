@@ -9,10 +9,10 @@ The code has been tested using MATLAB R2023b
 Author: Yuancheng Xu  
 Affiliation: Prof. Di Long's group at Tsinghua University, Beijing, PRC  
 Email: xuyc24@mails.tsinghua.edu.cn  
-Last updated: 3/7/2025  
+Last updated: 3/12/2025  
   
 ## GroundwaterDepth.xlsx
-In-situ groundwater depth data in the NCP from 2005 to 2024
+In-situ groundwater depth data in the NCP from 2005 to 2024. For access, please contact the corresponding author, Prof. Di Long (dlong@tsinghua.edu.cn).
 ### Type of monitoring well
 If 10 < type <= 19, the well monitors unconfined aquifers.  
 Type 11 represents the first unconfined aquifer.  
