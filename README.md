@@ -11,8 +11,8 @@ Affiliation: Prof. Di Long's group at Tsinghua University, Beijing, PRC
 Email: xuyc24@mails.tsinghua.edu.cn  
 Last updated: 3/12/2025  
   
-## GroundwaterDepth.xlsx
-In-situ groundwater depth data in the NCP from 2005 to 2024. For access, please contact the corresponding author, Prof. Di Long (dlong@tsinghua.edu.cn).
+## GroundwaterDepth_2005_2017.xlsx
+In-situ groundwater depth data for the North China Plain (NCP), 2005–2017. Data for 2018–2024 are available from the corresponding author, Prof. Di Long (dlong@tsinghua.edu.cn).
 ### Type of monitoring well
 If 10 < type <= 19, the well monitors unconfined aquifers.  
 Type 11 represents the first unconfined aquifer.  
